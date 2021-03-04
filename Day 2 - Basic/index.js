@@ -46,6 +46,16 @@
 // document.write(calc(7,2,5));
 
 // -----------------------------------------------------------------------------------------
+// first function is non-anonymous
+
+// let capitalize = (name) => {
+//     let res = name.charAt(0).toUpperCase() + name.slice(1);
+//     return (res);
+// };
+
+// document.write(capitalize("samuel"));
+
+
 
 // let capitalize = (function() {
 //     let name = "i am a webdeveloper";
@@ -54,6 +64,7 @@
 //     return (textp);
 // }());
 
+// 
 // --------------------------------------------------------------------------------
 
 // let grades = (math,phy,eng) => {
