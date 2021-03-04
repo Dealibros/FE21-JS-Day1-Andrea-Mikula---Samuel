@@ -46,17 +46,21 @@
 // document.write(calc(7,2,5));
 
 // -----------------------------------------------------------------------------------------
-// first function is non-anonymous.
-
+// ->non-anonymous arrow-function:
 // let capitalize = (name) => {
 //     let res = name.charAt(0).toUpperCase() + name.slice(1);
 //     return (res);
 // };
+// document.write(capitalize("hello vienna"));
 
-// document.write(capitalize("samuel"));
+// ->non-anonymous "normal"-function
+// function capitalize (name) {
+//     let res = name.charAt(0).toUpperCase() + name.slice(1);
+//     return (res);
+// }
+// document.write(capitalize("coding is hard"))
 
-
-
+// ->anonymous "normal"-function
 // let capitalize = (function() {
 //     let name = "i am a webdeveloper";
 //     let res = name.charAt(0).toUpperCase() + name.slice(1);
