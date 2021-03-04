@@ -46,7 +46,7 @@
 // document.write(calc(7,2,5));
 
 // -----------------------------------------------------------------------------------------
-// first function is non-anonymous
+// first function is non-anonymous.
 
 // let capitalize = (name) => {
 //     let res = name.charAt(0).toUpperCase() + name.slice(1);
